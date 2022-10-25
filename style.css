@@ -1,12 +1,18 @@
 
 /*----------Header Section----------*/
 
-.logo-img{
+.header-container{
     align-items: center;
 }
 
-.profil-img{
+.logo-img img{
+    height: 2.5rem;
+    align-items: center;
+}
+
+.profil-img img{
     float: right;
+    height: 2.5rem;
 }
 
 .events-img img {
