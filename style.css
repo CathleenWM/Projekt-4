@@ -2,8 +2,7 @@
 /*----------Header Section----------*/
 
 .header-container{
-    display: flex
-    
+    display: flex;
 }
 
 .logo-img img{
@@ -11,9 +10,8 @@
     align-items: center;
 }
 
-.profile-icon{
+.profile-icon img{
     display: flex;
-    justify-content: space-evenly;
     float: right;
     height: 2.5rem;
 }
