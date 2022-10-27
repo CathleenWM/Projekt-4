@@ -41,7 +41,7 @@
     color: #1399FC;
 }
 
-/**/
+/*----------Event Section----------*/
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -89,4 +89,55 @@
 
 .event-section div {
     background-color: lightblue;
+}
+
+/*----------Footer Section----------*/
+
+footer{
+    position: absolute;
+    background: #ddd;
+    height: 10.8rem;
+    width: 100%;
+    margin-top: 44px;
+    padding-top: 25px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content img{
+    align-items: center;
+    height: 1.5rem;
+}
+
+.footer-content p{
+    font-size: 14px;
+    max-width: 300px;
+}
+
+.socials-link{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: -15px;
+}
+
+.socials-link a{
+    text-decoration: none;
+}
+
+.socials-link a i{
+    font-size: 1.1rem;
+    width: 30px;
+    transition: color .4s ease;
+}
+
+.socials-link a:hover i{
+    color: aqua;
 }
