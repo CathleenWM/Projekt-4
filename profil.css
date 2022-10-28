@@ -1,0 +1,221 @@
+body{
+    background-color: #EBEBEB;
+    margin: 0;
+}
+
+.site_wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-left: 7px;
+    font-size: 14px;
+}
+
+h3, h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7px;
+}
+
+.dato_tid{
+    color: #1399FC;
+    font-size: 16px;
+}
+
+i{
+    color: black;
+}
+
+
+
+.logo_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+
+.house{
+    background-color: white;
+    padding: 12px 12px 13px 13px;
+    border-radius: 100%;
+    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
+}
+
+.house_align{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.upcoming_img> img{
+    width: 100%;
+    height: 100%;
+}
+
+.upcoming_img{
+    padding: 30px 0;
+}
+
+
+
+.egne_events{
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    background-color: white;
+}
+
+.egne_events{
+    border-radius: 12px 12px;
+    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
+}
+
+
+
+/* - - - - - - - - - - - - EVENT CARDS - - - - - - - - - - - - - -*/
+
+.event_card{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px 12px;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
+}
+
+.event_card_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.padeltennis_img{
+    height: 250px;
+    width: 340px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.du_deltager{
+    display: flex;
+    align-items: center;
+    padding-left: 27px;
+    background-color: white;  
+}
+
+.du_deltager{
+    border-radius: 12px 12px;
+    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
+}
+
+
+.photo_img{
+    height: 250px;
+    width: 340px; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+
+/* - - - - - - - - - - - -  - - - - - - - - - - - - - -*/
+
+
+
+.btn_indstillinger{
+    border-color: #1399FC;
+    border-radius: 50px;
+    border-width: 4px;
+    padding: 7px 60px;
+    transition-duration: 0.4s;
+    color: #1399FC;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn_indstillinger:hover{
+    background-color: #1399FC;
+    color: white;
+}
+
+.indstillinger{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+
+
+.fa-instagram{
+    font-size: 1.8rem;
+}
+
+.fa-instagram:hover{
+    color: #1399FC;
+    cursor: pointer;
+}
+
+
+footer{
+    padding: 0 15px;
+    background-color: #DDDDDD;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
+/*
+    Main CSS is for PC layout
+    First query is for tablet layout
+    Second query is for smartphone layout
+*/
+
+@media only screen and (max-width: 1230px){
+
+    .site_wrapper{
+        width: 800px;
+    }
+}
+
+@media only screen and (max-width: 847px){
+
+    .site_wrapper{
+        width: auto;
+        margin: auto;
+    }
+
+    .event_card_container{
+        justify-content: space-around;
+    }
+
+    .house_align{
+        display: none;
+    }
+
+    .du_deltager, .egne_events{
+        background-color: inherit;
+        box-shadow: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+
+    h2{
+        padding: 0;
+    }
+
+}
