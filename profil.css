@@ -14,6 +14,7 @@ p{
     font-weight: bold;
     padding-left: 7px;
     font-size: 14px;
+    color: #00454E;
 }
 
 h3, h2{
@@ -25,13 +26,17 @@ h2{
     color: #9B3C7D;
 }
 
+h3{
+    color: #00454E;
+}
+
 .dato_tid{
     color: #9B3C7D;
     font-size: 16px;
 }
 
 i{
-    color: black;
+    color: #00454E;
 }
 
 
