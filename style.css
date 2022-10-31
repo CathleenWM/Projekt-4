@@ -70,6 +70,25 @@ i{
     color: #1399FC;
 }
 
+/*----------Titel section----------*/
+
+.section_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 0 100px;
+    border-radius: 80px 80px;
+    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
+}
+
+h2{
+    color: #9B3C7D;
+    margin: 5px 20px;
+    font-family: proxima-nova, sans-serif;
+}
+
 /*----------Event Section----------*/
 .parent {
     display: grid;
@@ -78,6 +97,7 @@ i{
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 350px;
+    height: 120px;
     margin: auto;
     text-align: left;
     align-items: center;
@@ -93,11 +113,30 @@ i{
     .div4 { grid-area: 3 / 1 / 4 / 3; }
 
 .p2 {
-    font-size: large;
+    font-size: 25px;
+    color: #00454E;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.p3-purple {
+    font-size: 15px;
+    color: #9B3C7D;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-top: 0px;
 }
 
 .p3 {
-    font-size: medium;
+    font-size: 13px;
+    color: #00454E;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
+    margin-left: 12px;  
+    margin-bottom: 25px;
 }
 
 
