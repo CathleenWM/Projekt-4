@@ -38,6 +38,14 @@ i{
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
 
+.user i{
+    color: #00454E;
+}
+
+.user i:hover{
+    color: #44b1ab;
+}
+
 .user_align{
     position: absolute;
     right: 0;
@@ -58,6 +66,47 @@ i{
 /*----------Search Section----------*/
 .search-container{
     display: flex;
+    justify-content: center;
+}
+
+    /*Create event*/
+.create-event{
+    background-color: #E5F0EF;
+    padding: 12px 12px 13px 13px;
+    border-radius: 80%;
+    border-color: #9B3C7D;
+}
+
+.create-event:hover{
+    background-color: #9B3C7D;
+}
+
+.create-icon i{
+    color: #9B3C7D;
+}
+
+.create-icon i:hover{
+    color: #E5F0EF;
+}
+
+    /*Category filter*/
+.search-category p:hover{
+    color: #44b1ab;
+    font-size: 105%;
+}
+
+.search-category i:hover{
+    color: #44b1ab;
+    font-size: 105%;
+}
+
+    /*Search*/
+.search-icon i{
+    color: #00454E;
+}
+
+.search-icon i:hover{
+    color: #44b1ab;
 }
 
 
