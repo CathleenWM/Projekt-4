@@ -24,10 +24,12 @@ h3, h2{
 
 h2{
     color: #9B3C7D;
+    margin: 5px 0;
 }
 
 h3{
     color: #00454E;
+    padding-left: 7px;
 }
 
 .dato_tid{
