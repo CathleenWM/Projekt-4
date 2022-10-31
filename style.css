@@ -56,19 +56,10 @@ i{
 }
 
 /*----------Search Section----------*/
-    /*Search-box*/
-.search-box{
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    border-radius: 60px;
-    transition: 0.5s;
+.search-container{
+    display: flex;
 }
 
-.search-box .search-icon:hover{
-    color: #1399FC;
-}
 
 /*----------Event Section----------*/
 .parent {
