@@ -77,19 +77,15 @@ i{
 
 
 
-.egne_events{
+.section_header{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     margin: 0 280px;
-}
-
-.egne_events{
     border-radius: 80px 80px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
-
 
 
 /* - - - - - - - - - - - - EVENT CARDS - - - - - - - - - - - - - -*/
@@ -117,18 +113,6 @@ i{
     width: 340px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-}
-.du_deltager{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin: 0 280px; 
-}
-
-.du_deltager{
-    border-radius: 80px 80px;
-    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
 
 
@@ -202,6 +186,10 @@ footer{
     .site_wrapper{
         width: 800px;
     }
+
+    .section_header{
+        margin: 0 120px;
+    }
 }
 
 @media only screen and (max-width: 847px){
@@ -219,7 +207,7 @@ footer{
         display: none;
     }
 
-    .du_deltager, .egne_events{
+    .section_header{
         background-color: inherit;
         box-shadow: none;
         display: flex;
