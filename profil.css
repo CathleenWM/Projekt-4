@@ -25,6 +25,7 @@ h3, h2{
 h2{
     color: #9B3C7D;
     margin: 5px 0;
+    font-style: italic;
 }
 
 h3{
@@ -63,6 +64,10 @@ i{
     top: 50%;
     transform: translateY(-50%);
 
+}
+
+.fa-house{
+    font-size: 22px;
 }
 
 .upcoming_img> img{
@@ -137,6 +142,7 @@ i{
     color: #44B1AB;
     font-size: 20px;
     font-weight: 700;
+    font-family: proxima-nova, sans-serif;
 }
 
 .btn_settings:hover{
@@ -149,6 +155,10 @@ i{
     justify-content: center;
     margin-bottom: 70px;
     margin-top: 40px;
+}
+
+.back_frontpage{
+    display: none;
 }
 
 /* - - - - - - - - - - - - Footer section - - - - - - - - - - - - - -*/
@@ -190,6 +200,10 @@ footer{
     .section_header{
         margin: 0 120px;
     }
+
+    .back_frontpage{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 847px){
@@ -218,6 +232,36 @@ footer{
 
     h2{
         padding: 0;
+    }
+
+    .back_frontpage{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 70px;
+        margin-top: 40px;
+    }
+
+    .btn_back_frontpage{
+        border-color: #44B1AB;
+        border-radius: 50px;
+        border-width: 4px;
+        padding: 7px 60px;
+        transition-duration: 0.4s;
+        color: #44B1AB;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: proxima-nova, sans-serif;
+    }
+    
+    .btn_back_frontpage:hover{
+        background-color: #44B1AB;
+        color: white;
+    }
+
+    .btn_settings{
+        padding: 5px 30px;
+        font-size: 16px;
+        font-weight: 700;
     }
 
 }
