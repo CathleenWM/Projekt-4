@@ -80,7 +80,7 @@
     height: auto;
     width: fit-content;
     overflow: auto;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: auto;
     margin-right: auto;        
 }
@@ -149,17 +149,10 @@ footer{
 /* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
 
 
-@media only screen and (min-width: 847px){
+@media only screen and (max-width: 847px){
 
     .event-section {
-        flex-direction: row;       
+        flex-direction: column;       
     }
 }
 
-@media only screen and (max-width: 1920px){
-
-    .event-section {
-
-    }
-
-}
