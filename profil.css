@@ -24,13 +24,15 @@ h3, h2{
 
 h2{
     color: #9B3C7D;
+    margin: 5px 0;
 }
 
 h3{
     color: #00454E;
+    padding-left: 7px;
 }
 
-.dato_tid{
+.date_time{
     color: #9B3C7D;
     font-size: 16px;
 }
@@ -75,19 +77,15 @@ i{
 
 
 
-.egne_events{
+.section_header{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: white;
     margin: 0 280px;
-}
-
-.egne_events{
     border-radius: 80px 80px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
-
 
 
 /* - - - - - - - - - - - - EVENT CARDS - - - - - - - - - - - - - -*/
@@ -116,18 +114,6 @@ i{
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-.du_deltager{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    margin: 0 280px; 
-}
-
-.du_deltager{
-    border-radius: 80px 80px;
-    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
-}
 
 
 .photo_img{
@@ -142,7 +128,7 @@ i{
 
 
 
-.btn_indstillinger{
+.btn_settings{
     border-color: #44B1AB;
     border-radius: 50px;
     border-width: 4px;
@@ -153,12 +139,12 @@ i{
     font-weight: 700;
 }
 
-.btn_indstillinger:hover{
+.btn_settings:hover{
     background-color: #44B1AB;
     color: white;
 }
 
-.indstillinger{
+.settings{
     display: flex;
     justify-content: center;
     margin-bottom: 70px;
@@ -200,6 +186,10 @@ footer{
     .site_wrapper{
         width: 800px;
     }
+
+    .section_header{
+        margin: 0 120px;
+    }
 }
 
 @media only screen and (max-width: 847px){
@@ -217,7 +207,7 @@ footer{
         display: none;
     }
 
-    .du_deltager, .egne_events{
+    .section_header{
         background-color: inherit;
         box-shadow: none;
         display: flex;
