@@ -80,10 +80,11 @@ i{
     align-items: center;
     justify-content: center;
     background-color: white;
+    margin: 0 280px;
 }
 
 .egne_events{
-    border-radius: 12px 12px;
+    border-radius: 80px 80px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
 
@@ -119,11 +120,12 @@ i{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;  
+    background-color: white;
+    margin: 0 280px; 
 }
 
 .du_deltager{
-    border-radius: 12px 12px;
+    border-radius: 80px 80px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
 
