@@ -71,12 +71,14 @@
 
 .event-section {
     display: flex;
-    flex-wrap: nowrap;
+    max-width: 1200px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     width: 80%;
     border: solid green;
     height: auto;
+    width: fit-content;
     overflow: auto;
     flex-direction: column;
     margin-left: auto;
@@ -140,4 +142,24 @@ footer{
 
 .socials-link a:hover i{
     color: aqua;
+}
+
+
+
+/* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
+
+
+@media only screen and (min-width: 847px){
+
+    .event-section {
+        flex-direction: row;       
+    }
+}
+
+@media only screen and (max-width: 1920px){
+
+    .event-section {
+
+    }
+
 }
