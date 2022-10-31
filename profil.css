@@ -78,7 +78,7 @@ i{
 .egne_events{
     display: flex;
     align-items: center;
-    padding-left: 27px;
+    justify-content: center;
     background-color: white;
 }
 
@@ -118,7 +118,7 @@ i{
 .du_deltager{
     display: flex;
     align-items: center;
-    padding-left: 27px;
+    justify-content: center;
     background-color: white;  
 }
 
