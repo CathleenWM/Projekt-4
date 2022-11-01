@@ -182,23 +182,20 @@ h2{
 .event-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    width: 80%;
     height: auto;
     width: fit-content;
     overflow: auto;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
+    padding-left: 45px;
 }
 
 .events {
     margin: 10px;
     border-radius: 12px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
+    position: relative;
 }
 
 .events-img img {
@@ -210,6 +207,32 @@ h2{
     margin-right: auto;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+}
+
+.people-count {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 290px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.fa-user {
+    font-size: 16px;
+}
+
+
+.p4 {
+    font-size: 13px;
+    color: #00454E;
+    font-family: proxima-nova, sans-serif;
+    font-weight: bold;
 }
 
 
