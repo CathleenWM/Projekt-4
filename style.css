@@ -71,7 +71,7 @@ i{
 
     /*Create event*/
 .create-icon{
-    padding: 17px 18px;
+    padding: 12px 13px;
     color: #9B3C7D;
     background-color: white;
     border-color: #9B3C7D;
@@ -88,6 +88,10 @@ i{
 
 .create-icon i{
     color: inherit;
+}
+
+.fa-plus{
+    font-size: 27px;
 }
 
 
