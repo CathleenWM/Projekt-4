@@ -21,7 +21,7 @@ i{
     color: #00454E;
 }
 
-/*----------Header Section----------*/
+/* - - - - - - - - - - Header Section - - - - - - - - - - */
 
 .logo_icon{
     display: flex;
@@ -63,7 +63,7 @@ i{
     padding: 30px 0;
 }
 
-/*----------Search Section----------*/
+/* - - - - - - - - - - Search Section - - - - - - - - - - */
 .search-container{
     display: flex;
     justify-content: center;
@@ -149,7 +149,7 @@ i{
     background-color: black;
 }
 
-/*----------Titel section----------*/
+/* - - - - - - - - - - Titel section - - - - - - - - - - */
 
 .section_header{
     display: flex;
@@ -168,7 +168,7 @@ h2{
     font-family: proxima-nova, sans-serif;
 }
 
-/*----------Event Section----------*/
+/* - - - - - - - - - - Event Section - - - - - - - - - - */
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -275,8 +275,7 @@ h2{
 }
 
 
-
-/*----------Footer Section----------*/
+/* - - - - - - - - - - Footer Section - - - - - - - - - - */
 .footer-content{
     display: flex;
     justify-content: left;
