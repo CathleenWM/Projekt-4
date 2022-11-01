@@ -317,6 +317,10 @@ footer{
 
 @media only screen and (max-width: 1230px){
 
+    .site_wrapper{
+        width: 800px;
+    }
+
     .footer-content img{
         height: 1.2rem;
         margin-left: -8rem;
@@ -329,6 +333,11 @@ footer{
 
 @media only screen and (max-width: 847px){
 
+    .site_wrapper{
+        width: auto;
+        margin: auto;
+    }
+    
     .event-section {
         flex-direction: column;
     }
