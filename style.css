@@ -71,7 +71,7 @@ i{
 
     /*Create event*/
 .create-icon{
-    padding: 17px 18px;
+    padding: 12px 13px;
     color: #9B3C7D;
     background-color: white;
     border-color: #9B3C7D;
@@ -84,11 +84,14 @@ i{
 .create-icon:hover{
     color: #E5F0EF;
     background-color: #9B3C7D;
-    border-color: white;
 }
 
 .create-icon i{
     color: inherit;
+}
+
+.fa-plus{
+    font-size: 27px;
 }
 
 
@@ -157,7 +160,7 @@ i{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 240px;
     border-radius: 80px 80px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
@@ -321,6 +324,11 @@ footer{
         width: 800px;
     }
 
+    .section_header{
+        margin: 0 160px;
+        font-size: 14px;
+    }
+
     .footer-content img{
         height: 1.2rem;
         margin-left: -8rem;
@@ -337,7 +345,16 @@ footer{
         width: auto;
         margin: auto;
     }
-    
+
+    .section_header{
+        background-color: inherit;
+        box-shadow: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+    }
+
     .event-section {
         flex-direction: column;
     }
