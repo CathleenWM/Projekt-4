@@ -270,64 +270,64 @@ h2{
 
 
 /*----------Footer Section----------*/
-
-footer{
-    position: absolute;
-    background: #ddd;
-    height: 10.8rem;
-    width: 100%;
-    margin-top: 44px;
-    padding-top: 25px;
-}
-
 .footer-content{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    justify-content: left;
+    height: 80px;
+    margin-left: 220px;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.footer-content a{
+    margin-top: 2.4rem;
+    margin-left: -13.2rem;
+
 }
 
 .footer-content img{
-    align-items: center;
-    height: 1.5rem;
+    height: 1.8rem;
 }
 
-.footer-content p{
-    font-size: 14px;
-    max-width: 300px;
+.fa-instagram{
+    font-size: 1.8rem;
 }
 
-.socials-link{
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: -15px;
+.fa-instagram:hover{
+    color: #44B1AB;
+    cursor: pointer;
 }
 
-.socials-link a{
-    text-decoration: none;
+footer{
+    background-color: #D5E6E5;
 }
-
-.socials-link a i{
-    font-size: 1.1rem;
-    width: 30px;
-    transition: color .4s ease;
-}
-
-.socials-link a:hover i{
-    color: aqua;
-}
-
-
 
 /* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
+/*
+    Main CSS is for PC layout
+    First query is for tablet layout
+    Second query is for smartphone layout
+*/
 
+@media only screen and (max-width: 1230px){
+
+    .footer-content img{
+        height: 1.2rem;
+        margin-left: -8rem;
+    }
+
+    .footer-content a{
+        margin-left: -9rem;
+    }
+}
 
 @media only screen and (max-width: 847px){
 
     .event-section {
         flex-direction: column;
+    }
+
+    .footer-content img{
+        margin-left: -9rem;
     }
 }
