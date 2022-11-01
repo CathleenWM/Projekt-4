@@ -161,6 +161,24 @@ i{
 }
 
 /* - - - - - - - - - - - - Footer section - - - - - - - - - - - - - -*/
+.footer-content{
+    display: flex;
+    justify-content: left;
+    height: 80px;
+    margin-left: 220px;
+    flex-direction: row;
+    padding-top: 15px;
+}
+
+.footer-content a{
+    margin-top: 2.4rem;
+    margin-left: -13.2rem;
+
+}
+
+.footer-content img{
+    height: 1.8rem;
+}
 
 .fa-instagram{
     font-size: 1.8rem;
@@ -171,17 +189,9 @@ i{
     cursor: pointer;
 }
 
-
 footer{
-    padding: 0 15px;
     background-color: #D5E6E5;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-
 
 /* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
 /*
@@ -202,6 +212,15 @@ footer{
 
     .back_frontpage{
         display: none;
+    }
+
+    .footer-content img{
+        height: 1.2rem;
+        margin-left: -8rem;
+    }
+
+    .footer-content a{
+        margin-left: -9rem;
     }
 }
 
@@ -261,6 +280,10 @@ footer{
         padding: 5px 30px;
         font-size: 16px;
         font-weight: 700;
+    }
+
+    .footer-content img{
+        margin-left: -9rem;
     }
 
 }
