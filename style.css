@@ -84,7 +84,6 @@ i{
 .create-icon:hover{
     color: #E5F0EF;
     background-color: #9B3C7D;
-    border-color: white;
 }
 
 .create-icon i{
@@ -157,7 +156,7 @@ i{
     justify-content: center;
     align-items: center;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 240px;
     border-radius: 80px 80px;
     box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
 }
@@ -337,7 +336,7 @@ footer{
         width: auto;
         margin: auto;
     }
-    
+
     .event-section {
         flex-direction: column;
     }
