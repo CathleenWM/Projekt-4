@@ -387,7 +387,7 @@ footer{
 
     .event-section {
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .footer-content img{
