@@ -425,8 +425,9 @@ footer{
     }
 
     .event-section {
-        flex-direction: column;
-        padding-left: 45px;
+        flex-direction: row;
+        width: fit-content;
+        /* padding-left: 20px; */
     }
 
     .footer-content img{
