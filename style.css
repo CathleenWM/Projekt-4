@@ -140,6 +140,7 @@ i{
     background-color: white;
     border-radius: 20%;
     box-shadow: 0 4px 10px 0 lightgrey, 0 4px 10px 0 lightgrey;
+    cursor: pointer;
 }
 
 .search-icon i:hover{
