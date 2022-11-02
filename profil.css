@@ -184,7 +184,7 @@ i{
     overflow: auto;
     flex-direction: row;
     padding: 20px;
-    /* padding-left: 45px; */
+    margin-left: 45px;
 }
 
 .events {
@@ -316,6 +316,11 @@ footer{
         display: none;
     }
 
+    .event-section {
+        padding-left: 0;
+        margin-left: 30px;
+    }
+
     .footer-content img{
         height: 1.2rem;
         margin-left: -8rem;
@@ -386,8 +391,8 @@ footer{
     }
 
     .event-section {
-        justify-content: center;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .footer-content img{
