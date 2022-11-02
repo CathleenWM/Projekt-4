@@ -388,6 +388,7 @@ footer{
     .event-section {
         justify-content: center;
         flex-direction: row;
+        justify-content: space-around;
     }
 
     .footer-content img{
