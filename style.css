@@ -1,5 +1,7 @@
 body{
     background-color: #E5F0EF;
+    background-image: url(images/bubbles.png);
+    background-size: 35%;
     margin: 0;
 }
 
