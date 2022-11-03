@@ -163,7 +163,28 @@ i{
 }
 
 .search-contain input::placeholder{
-        color: gray;
+    color: gray;
+}
+
+.search-contain .autocom-box{
+    padding: 10px 8px;
+    max-height: 280px;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.search-contain .autocom-box li{
+    list-style: none;
+    padding: 8px 12px;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+    display: none;
+}
+
+.search-contain .autocom-box li:hover{
+    background: #D5E6E5;
 }
 
 .fa-search{

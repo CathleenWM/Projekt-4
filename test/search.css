@@ -45,11 +45,3 @@ body{
 .fa-search:hover{
     color: #44b1ab;
 }
-
-.search-contain p{
-    color: black;
-    font-size: .8rem;
-    text-align: left;
-    margin-left: 50px;
-    visibility: hidden;
-}

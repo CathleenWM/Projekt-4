@@ -1,6 +1,6 @@
+//Expanding Search Box
 const searchBtn = document.getElementById('search-btn'); /*From the icon*/
 const search = document.getElementById('search'); //From input
-const tip = document.getElementById('tip') //From p
 
 searchBtn.addEventListener('click', () => { //Expanding
     search.style.width = '80%';
@@ -24,3 +24,8 @@ function typewriter(){
         setTimeout(typewriter, speed);
     }
 }
+
+//Auto-complete Search
+const searchBox = document.querySelector('.search-contain');
+const inputBox = searchBox.querySelector('input');
+const suggBox = searchBox.querySelector('.autocom-box');
