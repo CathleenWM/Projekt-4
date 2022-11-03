@@ -29,3 +29,50 @@ function typewriter(){
 const searchBox = document.querySelector('.search-contain');
 const inputBox = searchBox.querySelector('input');
 const suggBox = searchBox.querySelector('.autocom-box');
+
+    //User pressing any key
+inputBox.onkeyup = (e) => {
+    let userData = e.target.value; //User entered data
+    let emptyArray = [];
+
+    if(!userData){
+        emptyArray = suggestions.filter((data) => {
+            //Filtering array value and user char
+            //Return only what starts vwith entered word
+            return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
+        });
+        emptyArray = emptyArray.map(() => {
+            return data = '<li>' + data + '</li>';
+        });
+        searchBox.classList.add("active"); //Show autocomplet box
+        showSuggestions(emptyArray);
+        
+        let allList =suggBox.querySelectorAll("li");
+        for (let i = 0; i < allList.length; i++) {
+            //Adding oneclick attribute in all li tag
+            allList[i].setAttribute("onclick", "select(this)");
+        }
+    }
+    else{
+        searchBox.classList.remove("active"); //Hide autocomplet box
+    }
+}
+
+function select(element){
+    let selectUserData = element.textContent;
+    inputBox.value = selectUserData; //Passing the user selected list in text field
+    searchBox.classList.remove("active"); //Hide autocomplet box
+}
+
+function showSuggestions(list){
+    let listData;
+
+    if(!list.length){
+        userValue = inputBox.value;
+        listData = '<li>' + userValue + '</li>;'
+    }
+    else{
+        listData = list.join('');
+    }
+    suggBox.innerHTML = listData;
+}

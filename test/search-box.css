@@ -167,11 +167,17 @@ i{
 }
 
 .search-contain .autocom-box{
-    padding: 10px 8px;
+    padding: 0px;
     max-height: 280px;
     overflow-y: auto;
     opacity: 0;
     pointer-events: none;
+}
+
+.search-contain input .active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .search-contain .autocom-box li{
@@ -181,6 +187,10 @@ i{
     cursor: default;
     border-radius: 3px;
     display: none;
+}
+
+.search-contain input .active .autocom-box li{
+    display: block;
 }
 
 .search-contain .autocom-box li:hover{
