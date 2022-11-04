@@ -93,41 +93,6 @@ i{
 }
 
 
-/* - - - - - - - - - - - - EVENT CARDS - - - - - - - - - - - - - -*/
-
-/* .event_card{
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 12px 12px;
-    background-color: white;
-    box-shadow: 0 8px 16px 0 lightgrey, 0 6px 20px 0 lightgrey;
-}
-
-.event_card_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.padeltennis_img{
-    height: 250px;
-    width: 340px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-}
-
-
-.photo_img{
-    height: 250px;
-    width: 340px; 
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-} */
-
 /* - - - - - - - - - - - - EVENT CARDS Section - - - - - - - - - - - - - -*/
 .parent {
     display: grid;
@@ -502,5 +467,11 @@ footer{
     #popup_main_div{
         width: 500px;
     }
+
+    .number_settings{
+        margin: 20px;
+    }
+
+    .campus_settings
 
 }
