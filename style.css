@@ -172,6 +172,7 @@ i{
         overflow-y: auto;
         opacity: 0;
         pointer-events: none;
+        box-shadow: 0 4px 10px 0 lightgrey, 0 4px 10px 0 lightgrey;
     }
     
     .search-contain.active .autocom-box{
