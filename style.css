@@ -133,27 +133,85 @@ i{
 }
 
     /*Search*/
-.search-icon i{
-    color: #00454E;
-}
-
-.search-icon{
-    padding: 17px;
-    background-color: white;
-    border-radius: 20%;
-    box-shadow: 0 4px 10px 0 lightgrey, 0 4px 10px 0 lightgrey;
-    cursor: pointer;
-}
-
-.search-icon i:hover{
-    color: #44b1ab;
-}
-
-.divider{
-    height: 80%;
-    width: 1px;
-    background-color: black;
-}
+    .divider{
+        height: 80%;
+        width: 1px;
+        background-color: black;
+    } 
+    
+    .search-contain{
+        text-align: center;
+    }
+    
+    .search-contain input{
+        background: #fff;
+        width: 20px;
+        height: 20px;
+        padding: 17px;
+        border-radius: 15px;
+        box-shadow: 0 4px 10px 0 lightgrey, 0 4px 10px 0 lightgrey;
+        border: none;
+        color: black;
+        cursor: pointer;
+        font-size: 1.6rem;
+        outline: none;
+        transition: width 1s ease;
+    }
+    
+    .search-contain input:focus{
+        outline: none;
+    }
+    
+    .search-contain input::placeholder{
+        color: gray;
+    }
+    
+    .search-contain .autocom-box{
+        padding: 0px;
+        max-height: 280px;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .search-contain.active .autocom-box{
+        background-color: white;
+        z-index: 5;
+        padding: 10px 8px;
+        opacity: 1;
+        pointer-events: auto;
+        border-radius: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .search-contain .autocom-box li{
+        list-style: none;
+        padding: 8px 12px;
+        width: 100%;
+        cursor: default;
+        border-radius: 3px;
+        display: none;
+    }
+    
+    .search-contain.active .autocom-box li{
+        display: block;
+    }
+    
+    .search-contain .autocom-box li:hover{
+        background: #44B1AB;
+    }
+    
+    .fa-search{
+        font-size: 1.8rem;
+        margin: 18px 0 0 18px;
+        position: absolute;
+        cursor: pointer;
+        color: #00454E;
+    }
+    
+    .fa-search:hover{
+        color: #44b1ab;
+    }
 
 /* - - - - - - - - - - Titel section - - - - - - - - - - */
 
