@@ -118,10 +118,43 @@
         </section>
     
     
-        <div class="settings"><button class="btn_settings">Profil indstillinger</button></div>
+        <div class="settings"><button class="btn_settings" onclick="openPopupMenu()">Profil indstillinger</button></div>
 
         <div class="back_frontpage"><a href="index.html"><button class="btn_back_frontpage">Tilbage til forsiden</button></a></div>
     </main>
+
+    <div id="popup_bg">
+        <div id="popup_main_div">
+            <h2 class="h2_settings">Indstillinger</h2>
+
+            <div class="settings_content">
+
+                <div>
+                    <div class="number_settings">Tilføj telefonnummer <input type="text" class="input_styling"></div>
+
+                    <div class="campus_settings">Vælg campus <select class="input_styling" name="campus">
+                        <option value="a">Vælg campus</option>
+                        <option value="b">Seebladsgade</option>
+                        <option value="c">Niels Bohrs Allé</option>
+                    </select></div>
+
+                    <div class="notifications_settings">Slå notifikationer til? 
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="insert_profilepic"><p> Indsæt profil billede </p><i class="fa-solid fa-plus"></i></div>
+            </div>
+
+            <div id="close_popup_div">
+                <button class="settings_close input_styling" onclick="closePopupMenu()">Gem ændringer</button>
+            </div>
+        </div>
+
+    </div>
 
     <!--**********Footer Section**********-->
     <footer>
@@ -132,6 +165,8 @@
             <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
     </footer>
+
+    <script src="profil.js"></script>
     
 </body>
 </html>
