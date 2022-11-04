@@ -500,11 +500,7 @@ footer{
     }
 
     #popup_main_div{
-        left: auto;
-        right: auto;
-        margin: auto;
-        width: 97%;
-        top: 50px;
+        width: 500px;
     }
 
 }
