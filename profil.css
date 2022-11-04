@@ -472,6 +472,11 @@ footer{
         margin: 20px;
     }
 
-    .campus_settings
+    .campus_settings{
+        margin: 20px;
+    }
 
+    .notifications_settings{
+        margin: 20px;
+    }
 }
