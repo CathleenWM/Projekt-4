@@ -180,6 +180,8 @@ i{
     padding: 10px 8px;
     opacity: 1;
     pointer-events: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
 }
 
 .search-contain .autocom-box li{
@@ -196,7 +198,7 @@ i{
 }
 
 .search-contain .autocom-box li:hover{
-    background: #D5E6E5;
+    background: #44B1AB;
 }
 
 .fa-search{
