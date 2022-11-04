@@ -3,7 +3,7 @@ const searchBtn = document.getElementById('search-btn'); /*From the icon*/
 const search = document.getElementById('search'); //From input
 
 searchBtn.addEventListener('click', () => { //Expanding
-    search.style.width = '80%';
+    search.style.width = '70%';
     search.style.paddingLeft = '60px';
     search.style.cursor = 'text';
     search.focus();
@@ -25,23 +25,28 @@ function typewriter(){
     }
 }
 
+
 //Auto-complete Search
 const searchBox = document.querySelector('.search-contain');
 const inputBox = searchBox.querySelector('input');
 const suggBox = searchBox.querySelector('.autocom-box');
+
+search.onfocus = (e) => {
+    searchBtn.click()
+}
 
     //User pressing any key
 inputBox.onkeyup = (e) => {
     let userData = e.target.value; //User entered data
     let emptyArray = [];
 
-    if(!userData){
+    if(userData){
         emptyArray = suggestions.filter((data) => {
             //Filtering array value and user char
             //Return only what starts vwith entered word
             return data.toLocaleLowerCase().startsWith(userData.toLocaleLowerCase());
         });
-        emptyArray = emptyArray.map(() => {
+        emptyArray = emptyArray.map((data) => {
             return data = '<li>' + data + '</li>';
         });
         searchBox.classList.add("active"); //Show autocomplet box
@@ -53,7 +58,7 @@ inputBox.onkeyup = (e) => {
             allList[i].setAttribute("onclick", "select(this)");
         }
     }
-    else{
+    else{   
         searchBox.classList.remove("active"); //Hide autocomplet box
     }
 }
@@ -74,5 +79,6 @@ function showSuggestions(list){
     else{
         listData = list.join('');
     }
+
     suggBox.innerHTML = listData;
 }

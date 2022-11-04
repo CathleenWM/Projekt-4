@@ -174,7 +174,9 @@ i{
     pointer-events: none;
 }
 
-.search-contain input .active .autocom-box{
+.search-contain.active .autocom-box{
+    background-color: white;
+    z-index: 5;
     padding: 10px 8px;
     opacity: 1;
     pointer-events: auto;
@@ -189,7 +191,7 @@ i{
     display: none;
 }
 
-.search-contain input .active .autocom-box li{
+.search-contain.active .autocom-box li{
     display: block;
 }
 
