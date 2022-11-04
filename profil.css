@@ -270,7 +270,6 @@ footer{
     width: 100%;
     height: 100%;
     color: #00454E;
-    font-family: Arial, Helvetica, sans-serif;
     display: none;
 }
 
@@ -286,6 +285,10 @@ footer{
     transform:translate(-50%, -50%);
     font-size: 20px;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: proxima-nova, sans-serif;
 }
 
 .settings_content{
@@ -326,7 +329,7 @@ footer{
 }
 
 .number_settings{
-    margin: 50px;
+    margin: 50px 50px 80px 50px;
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -340,24 +343,30 @@ footer{
 }
 
 .campus_settings{
-    margin: 50px;
+    margin: 50px 50px 80px 50px;
 }
 
 .notifications_settings{
-    margin: 50px;
+    margin: 50px 50px 80px 50px;
 }
 
 
 #close_popup_div{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 .settings_close{
     padding: 7px 60px;
     cursor: pointer;
     border-radius: 50px;
+    border-width: 3px;
     background-color: white;
+    font-family: proxima-nova, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00454E;
 }
 
 /* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
@@ -469,14 +478,14 @@ footer{
     }
 
     .number_settings{
-        margin: 20px;
+        margin: 50px 20px;
     }
 
     .campus_settings{
-        margin: 20px;
+        margin: 50px 20px;
     }
 
     .notifications_settings{
-        margin: 20px;
+        margin: 50px 20px;
     }
 }
