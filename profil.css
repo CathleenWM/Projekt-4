@@ -313,6 +313,12 @@ footer{
     font-size: 20px;
 }
 
+.fa-plus:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #9B3C7D;
+}
+
 .fa-plus{
     padding: 35px 35px;
     margin-top: 5px;
