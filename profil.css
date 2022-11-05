@@ -455,19 +455,19 @@ footer{
     }
 
     .btn_back_frontpage{
-        border-color: #44B1AB;
+        border-color: #00454E;
         border-radius: 50px;
         border-width: 4px;
         padding: 7px 60px;
         transition-duration: 0.4s;
-        color: #44B1AB;
+        color: #00454E;
         font-size: 20px;
         font-weight: 700;
         font-family: proxima-nova, sans-serif;
     }
     
     .btn_back_frontpage:hover{
-        background-color: #44B1AB;
+        background-color: #00454E;
         color: white;
     }
 
