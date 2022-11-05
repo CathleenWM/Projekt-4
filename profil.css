@@ -369,6 +369,12 @@ footer{
     color: #00454E;
 }
 
+.settings_close:hover{
+    background-color: #00454E;
+    color: white;
+    border-color: inherit;
+}
+
 /* - - - - - - - - - - - - MEDIA QUERIES - - - - - - - - - - - - - -*/
 /*
     Main CSS is for PC layout
