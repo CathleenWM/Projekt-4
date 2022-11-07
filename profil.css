@@ -271,6 +271,7 @@ footer{
     height: 100%;
     color: #00454E;
     display: none;
+    backdrop-filter: blur(6px);
 }
 
 #popup_main_div{
