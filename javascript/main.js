@@ -14,16 +14,16 @@ dropdowns.forEach(dropdown => {
         menu.classList.toggle('menu-open');
     });
 
-    options.forEach(options => {
-        options.addEventListener('click', () => {
+    options.forEach(option => {
+        option.addEventListener('click', () => {
             selected.innerText = option.innerText;
             select.classList.remove('select-clicked');
             caret.classList.remove('caret-rotate');
             menu.classList.remove('menu-open');
-            options.forEach(options => {
-                options.classList.remove('active');
+            options.forEach(option => {
+                option.classList.remove('active');
             });
-            options.classList.add('active');
+            option.classList.add('active');
         });
     });
 });
