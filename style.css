@@ -128,16 +128,13 @@ i{
     color: #44b1ab;
     font-size: 105%;
 }
-/* -------Test------- */
+/* -------Dropdown------- */
 .dropdown {
-    /* min-width: 9em; */
     position: relative;
-    /* margin: 2em; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    
 } 
 
 .dropdown * {
@@ -150,11 +147,9 @@ i{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px #00454E solid; */
     border-radius: 0.5em;
     padding: 1em;
     cursor: pointer;
-    /* transition: background 0.3s; */
 }
 
 .select-clicked {
