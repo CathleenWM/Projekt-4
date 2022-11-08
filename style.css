@@ -130,9 +130,14 @@ i{
 }
 /* -------Test------- */
 .dropdown {
-    min-width: 7em;
+    /* min-width: 9em; */
     position: relative;
-    margin: 2em;
+    /* margin: 2em; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
 } 
 
 .dropdown * {
@@ -218,12 +223,15 @@ i{
 
 
 /* ------Test Slut------- */
-.campus, .dato, .category,{
+/* .campus, .dato, .category,{
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
-}
+} */
+
+
+
 .search-category i:hover{
     color: #44b1ab;
     font-size: 105%;
