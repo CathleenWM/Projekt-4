@@ -34,13 +34,13 @@
         <div id="overlay"> </div>
         <div class="popup-events" id="popup-photo-workshop">
             <button class="event-close-btn" id="photo-close-btn">&times;</button>
-            <div class="popup-grid">
+            <div class="popup-grid" id="popup-grid">
                 <div class="popup-img"><img class="popup-img" src="photo-workshop.jpg" alt="Photo Workshop"></div>
                 <div class="popup-title"><p class="popup-title">Photo Workshop</p></div>
                 <div class="popup-category"><p>Hobby</p></div>
                 <div class="popup-date"><p class="popup-text-purple"><i class="fa-regular fa-calendar-days"></i> 24. Nov. 2022 </p></div>
                 <div class="popup-time"><p class="popup-text-purple"><i class="fa-regular fa-clock"></i> 15:30 </p></div>
-                <div class="popup-people"><i class="fa-solid fa-user"></i><p>10/20</p></div>
+                <div class="popup-people"><i class="fa-solid fa-user usericon"></i><p class="popup-antal-deltagere"> 10 / 20</p></div>
                 <div class="popup-adress"><p><i class="fa-solid fa-location-dot"></i> Seebladsgade 1, 5000 Odense C </p></div>
                 <div class="popup-campus"><p><i class="fa-solid fa-school"></i> UCL Seebladsgade</p></div>
                 <div class="popup-user"><p><i class="fa-regular fa-user"></i> Jørgen Larsen</p></div>
@@ -53,10 +53,13 @@
                         PS. Husk kamera eller mobil telefon til fotografering</p>
                 </div>
             </div>
-
-            <button class="deltag-btn">
-                <p class="text-btn">Deltag</p>
-            </button>
+            <button class="deltag-btn" id="deltag-btn">Deltag</button>
+            <div class="popup-confirmation" id="popup-confirmation">
+                <div class="popup-check"><i class="fa-regular fa-circle-check"></i></div>
+                <p id="confirmation-text">Sådan du er nu tilmeldt forsat god aften!</p>
+                <button class="deltag-btn" id="go-back-btn">Tilbage til forsiden</button>
+            </div>
+            
         </div>
     
     </section>
